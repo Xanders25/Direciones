@@ -7,6 +7,6 @@ if(isset($_GET['email'])){
 }
 ?>
 <form>
-	<input name="email"/>
+	<input name="email" type="email"/>
 	<button>Suscribete :D</button>
 </form>
