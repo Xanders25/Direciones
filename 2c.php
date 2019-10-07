@@ -2,20 +2,19 @@
 // php - Funciones
 
 function calcula($n1,$n2){
-	/*
-	$n1 = 2025;
-	$n2 = "41";
-	*/
-	echo "Los numeros que usare son ", $n1, " y ", $n2, ".<br />";
-	echo "La Suma: ", $n1+$n2,"<br />";
-	echo "Resta: ", $n1-$n2,"<br />";
-	echo "Multiplicacion: ", $n1*$n2,"<br />";
-	echo "Division: ", $n1/$n2,"<br />";
-	printf("Division sin decimales: %d<br />", $n1/$n2);
-	echo "Resto de la division: ", $n1 % $n2, "<br />";
-	echo "<br/>";
+	$r=null;
+	$r=$r."Los numeros que usare son ". $n1. " y ". $n2. ".<br />";
+	$r=$r."La Suma: ". ($n1+$n2)."<br />";
+	$r=$r."Resta: ". ($n1-$n2)."<br />";
+	$r=$r."Multiplicacion: ". ($n1*$n2)."<br />";
+	$r=$r."Division: ". ($n1/$n2)."<br />";
+	$r=$r."Division sin decimales: ".($n1/$n2)."<br />";
+	$r=$r."Resto de la division: ". ($n1 % $n2). "<br />";
+	$r=$r."<br/>";
+	return $r;
 }
 
-echo calcula(30,52);
+$v=calcula(30,52);
+	echo $v;
 echo calcula(4,2)
 ?>
