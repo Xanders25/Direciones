@@ -1,0 +1,10 @@
+<?php
+$array = array(1, 2);
+$count = count($array);
+for ($i = 0; $i < $count; $i++) {
+    echo "\nRevisando $i: \n";
+    echo "Mal: " . $array['$i'] . "\n"; // Genera Notice: Undefined index
+    echo "Bien: " . $array[$i] . "\n";
+    echo "Mal: {$array['$i']}\n"; // Genera Notice: Undefined index
+    echo "Bien: {$array[$i]}\n";
+}
