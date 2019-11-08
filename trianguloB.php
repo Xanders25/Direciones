@@ -1,19 +1,16 @@
 <?php
-// vectores de test
-$A=90; $B=45; $C=45;
-$A=45; $B=45; $C=90;
-$A=60; $B=60; $C=60;
-$A=45; $B=90; $C=45;
-$A=100; $B=40; $C=40;
 
-$r='acutángulo';
+function tipo_angulo($A,$B,$C){
+	$r='acutángulo';
 
-if($A==90 or $C==90 or $B==90)
-	$r='rectángulo';
+	if($A==90 or $C==90 or $B==90)
+		$r='rectángulo';
 
-if($A>90 or $C>90 or $B>90)
-	$r='obtusándulo';
+	if($A>90 or $C>90 or $B>90)
+		$r='obtusándulo';
+	return $r;
+}
 
-
-
-echo $r;
+echo tipo_angulo(90,45,45).' ¿rectángulo?<br/>';
+echo tipo_angulo(60,60,60).' ¿acutangulo?<br/>';
+echo tipo_angulo(90,90,90).' ¿obtusangulo?<br/>';
