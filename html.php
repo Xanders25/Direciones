@@ -5,11 +5,10 @@
 </head>
 <body bgcolor="#E6E6FA">
 
-<h1>Estalla el 'caso Guedes' en el Valencia</h1>
-
-<h2>El luso comunica al club que se va a buscar una nueva opinión médica para solventar su lesión</h2>
-<h3>No tiene fé de que se solucione su problema.</h3>
-<h4>Se queda sin opciones</h4>
+<h1>Futbol</h1>
+<h2>Valencia CF</h2>
+<h3>Estalla el 'caso Guedes' en el Valencia</h3>
+<h4>El luso comunica al club que se va a buscar una nueva opinión médica para solventar su lesión</h4>
 <center>
 <img src="vlc.jpg" alt="Guedes en lesión"/>
 </center>
