@@ -9,8 +9,11 @@
 <h2>Valencia CF</h2>
 <h3>Estalla el 'caso Guedes' en el Valencia</h3>
 <h4>El luso comunica al club que se va a buscar una nueva opinión médica para solventar su lesión</h4>
+
+<!-- La estructura jerarquica que he puesto aqui es: Futblo - Equipo de futbol especifico - Noticia - Descripcion breve -->
+
 <center>
-<img src="vlc.jpg" alt="Guedes en lesión"/>
+<img src="vlc.jpg" alt="Guedes en lesión" width="50%"/>
 </center>
 <p><u>Gonçalo Guedes</u> ha dicho basta. El extremo portugués ha decidido que ya no espera más. 
 Por ese motivo <b>ha comunicado al <font size="1">club</font> que se marcha</b> a buscar una nueva opinión médica por
@@ -43,7 +46,7 @@ dolencias que no remiten fruto de los problemas internos que hay en los servicio
 
 <h1>Autonomias bañadas por el cantabrico</h1>
 
-<table border="">
+<table margin-left="auto" margin-right="auto" border="">
   <tr>
     <th>Norte</th>
     <th>Mas al norte</th>
